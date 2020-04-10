@@ -60,6 +60,7 @@ abstract class Routes {
                 self::$routes['params'] = self::$url;
             }
         } else {
+            self::$routes['admin'] = TRUE;
             unset(self::$routes['admin.controller']);
             unset(self::$routes['admin.action']);
         }
