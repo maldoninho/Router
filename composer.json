@@ -1,7 +1,13 @@
 {
     "name": "maldoninho",
     "description": "SIMPLE CLASS TO ROUTING THE APPLICATION USING URLS TO DRIVE THE USER INTERFACE",
+    "authors": [
+        {
+            "name": "Maldoninho",
+            "email": "maldoninho@live.co.uk"
+        }
+    ],
     "require": {
-        "php": "^7.2"
+        "php": ">=5.2.8"
     }
 }
