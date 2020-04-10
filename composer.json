@@ -1,12 +1,16 @@
 {
     "name": "maldoninho/router",
+    "type": "library",
     "description": "SIMPLE CLASS TO ROUTING THE APPLICATION USING URLS TO DRIVE THE USER INTERFACE",
+    "keywords": ["router", "routes"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Maldoninho",
             "email": "maldoninho@live.co.uk"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.2.8"
     }
