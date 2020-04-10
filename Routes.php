@@ -3,6 +3,7 @@
  * SIMPLE CLASS TO ROUTING THE APPLICATION USING URLS TO DRIVE THE USER INTERFACE
  *
  * @author Maldoninho
+ * @return a object routes
  */
 abstract class Routes {
 
