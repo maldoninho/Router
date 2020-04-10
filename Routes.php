@@ -70,7 +70,7 @@ abstract class Routes {
 
     public static function getRoutes($routes) {
         self::setRoutes($routes);
-        return self::$routes;
+        return (object) self::$routes;
     }
 
 }
