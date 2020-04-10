@@ -1,5 +1,5 @@
 {
-    "name": "maldoninho-routes",
+    "name": "maldoninho/routes",
     "description": "SIMPLE CLASS TO ROUTING THE APPLICATION USING URLS TO DRIVE THE USER INTERFACE",
     "authors": [
         {
