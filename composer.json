@@ -1,0 +1,8 @@
+{
+    "name": "maldoninho",
+    "description": "SIMPLE CLASS TO ROUTING THE APPLICATION USING URLS TO DRIVE THE USER INTERFACE",
+    "require": {
+        "php": "^7.2",
+        "another-vendor/package": "1.*"
+    }
+}
