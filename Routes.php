@@ -3,7 +3,7 @@
  * SIMPLE CLASS TO ROUTING THE APPLICATION USING URLS TO DRIVE THE USER INTERFACE
  *
  * @author Maldoninho
- * @return a object routes
+ * @return a array routes
  */
 abstract class Routes {
 
@@ -70,7 +70,7 @@ abstract class Routes {
 
     public static function getRoutes($routes) {
         self::setRoutes($routes);
-        return (object) self::$routes;
+        return self::$routes;
     }
 
 }
