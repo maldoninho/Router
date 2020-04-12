@@ -1,12 +1,11 @@
 # Maldoninho-Routes
 
-SIMPLE CLASS TO ROUTING THE APPLICATION USING URLS TO DRIVE THE USER INTERFACE.
-FREE TO USE.
+Router is a simple class to routing the application using url's to drive the user interface.
 
 ## Reequire the ROUTES class
 
 ```php
-require("vendor/maldoninho/router/Routes.php");
+require "vendor/maldoninho/router/Routes.php";
 ```
 
 ### DEFINE THE CONST ROUTES TO ACCESS THE DEFAULT ROUTES INTO THE CLASS
