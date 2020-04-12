@@ -4,11 +4,13 @@
 
 ## Reequire the ROUTES class
 
+```php
 require("Routes.php");
-
+```
 
 ### DEFINE THE CONST ROUTES TO ACCESS THE DEFAULT ROUTES INTO THE CLASS
  
+ ```php
 define("ROUTES",
         [
             "language" => "",         // DEFINE DEFAULT LANGUAGE
@@ -18,13 +20,17 @@ define("ROUTES",
             "admin.action" => ""      // DEFINE DEFAULT ADMIN ACTION
         ]
 );
+```
 
 ### CALL THE CLASS
 
+```php
 Routes::getRoutes(ROUTERS);
+```
 
 ### IT'S RETURN A ARRAY LAKE
 
+```php
 [
 	[language] =>     // DEFINED DEFAULT LANGUAGE OR LANGUAGE GIVED IN THE URL
 	[admin] =>        // LIKE GIVED IN THE URL -  ITS RETURN A BOOLEAN VALUE TRUE OR FALSE
@@ -39,6 +45,7 @@ Routes::getRoutes(ROUTERS);
 			[3] => p4
 		)
 ];
+ ```
  
 ### Requirements
 
