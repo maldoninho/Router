@@ -1,4 +1,7 @@
 <?php
+
+manespace Maudoninho\Router;
+
 /**
  * SIMPLE CLASS TO ROUTING THE APPLICATION USING URLS TO DRIVE THE USER INTERFACE
  *
@@ -11,7 +14,7 @@ abstract class Routes {
     private static $url;
 
     private static function setRoutes($routes) {
-        self::$routes = $routes;
+        self::$routes = $routes
 		self::$url = parse_url(filter_input(INPUT_SERVER, "REQUEST_URI", FILTER_SANITIZE_URL), PHP_URL_PATH);    
         if (self::$url !== '/') {
             self::$url = explode('/', trim(self::$url, '/'));

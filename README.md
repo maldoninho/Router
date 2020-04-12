@@ -5,7 +5,7 @@
 ## Reequire the ROUTES class
 
 ```php
-require("Routes.php");
+require("vendor/maldoninho/router/Routes.php");
 ```
 
 ### DEFINE THE CONST ROUTES TO ACCESS THE DEFAULT ROUTES INTO THE CLASS
