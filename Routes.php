@@ -1,12 +1,11 @@
 <?php
 
-manespace Maudoninho\Router;
+namespace Maldoninho\Router;
 
 /**
- * SIMPLE CLASS TO ROUTING THE APPLICATION USING URLS TO DRIVE THE USER INTERFACE
+ * Router is a simple class to routing the application using url's to drive the user interface.
  *
- * @author Maldoninho
- * @return a array routes
+ * @license   MIT, http://www.opensource.org/licenses/mit-license.php
  */
 abstract class Routes {
 
